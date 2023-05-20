@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.editor-container.collapsed {
+  flex-grow: 0;
+}
+.editor-container.collapsed .CodeMirror-scroll {
+  position: absolute;
+  overflow: hidden;
+}
+.CodeMirror{
+  height: 100%;
+}
